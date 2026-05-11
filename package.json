@@ -1,0 +1,10 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "electron": "electron .",
+    "dev": "concurrently \"node src/server.js\" \"electron .\""
+  }
+}
